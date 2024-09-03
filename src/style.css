@@ -1,0 +1,59 @@
+.topContainer {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+  height: 25vh;
+  width: 100%;
+  background-color: aqua;
+}
+
+img {
+  height: 85px;
+  border-radius: 150px;
+  margin-left: 10px;
+}
+
+.headText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* h1 {
+  padding-top: 50px;
+}
+
+h3 {
+  padding-bottom: 50px;
+} */
+
+.optionbutton {
+  margin-right: 10px;
+}
+
+button {
+  height: 40px;
+  background-color: skyblue;
+  border-radius: 10px;
+}
+
+.tableContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+th {
+  background-color: cadetblue;
+}
+
+caption {
+  font-size: 25px;
+}
+
+.listContainer {
+  display: flex;
+  justify-content: center;
+}
